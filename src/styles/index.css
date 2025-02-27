@@ -1,11 +1,30 @@
-/* 
+body, .titulo {
+    background-color: rgb(224, 221, 221);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+input{
+    border: none;
+    outline: none;
+}
+
+button{
+    opacity: 0;
+}
+
+button:hover{
+    opacity: 100;
+    border: none;
+}
+
+
+.tarjeta{
+    
+    border-radius: 0;
+    box-shadow: 3px 3px white, 6px 6px white, 9px 9px white;
+}
+
+
+.abajo{
+    font-size: x-small;
+}
